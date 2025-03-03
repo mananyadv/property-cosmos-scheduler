@@ -19,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				display: ['Playfair Display', 'serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -63,22 +67,22 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Custom theme colors
+				// Updated custom theme colors for better readability
 				brik: {
 					purple: {
 						light: '#9B87F5',
-						DEFAULT: '#7E69AB',
+						DEFAULT: '#8B5CF6',
 						dark: '#6E59A5',
 						darker: '#1A1F2C'
 					},
 					cream: {
-						light: '#F3F3F3',
-						DEFAULT: '#EEE',
+						light: '#F6F6F7',
+						DEFAULT: '#F1F0FB',
 						dark: '#E0E0E0'
 					},
 					black: {
-						light: '#333333',
-						DEFAULT: '#222222',
+						light: '#403E43',
+						DEFAULT: '#221F26',
 						dark: '#000000'
 					}
 				}

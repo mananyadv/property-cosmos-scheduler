@@ -80,7 +80,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-brik-cream-light overflow-hidden">
+    <div className="min-h-screen bg-brik-cream-light overflow-hidden font-sans">
       {/* Navigation */}
       <NavBar />
 

@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-2">
               <div className="badge animate-fade-in">AI-Powered Real Estate</div>
-              <h1 className="heading-xl text-brik-black-light">
+              <h1 className="heading-xl text-brik-black">
                 Revolutionizing <span className="text-brik-purple">real estate</span> with artificial intelligence
               </h1>
               <p className="subtitle mt-6 text-lg">
@@ -39,7 +39,7 @@ const Hero = () => {
               </button>
             </div>
             
-            <div className="flex items-center text-sm text-brik-black-light opacity-75">
+            <div className="flex items-center text-sm text-brik-black opacity-80">
               <span className="mr-2">Discover how AI transforms your investment journey</span>
               <ArrowRight className="h-4 w-4 text-brik-purple" />
             </div>
@@ -51,7 +51,7 @@ const Hero = () => {
                 <div className="w-20 h-20 md:w-24 md:h-24 mx-auto relative animate-float">
                   <div className="absolute inset-0 bg-brik-purple rounded-full opacity-20 animate-pulse-slow"></div>
                   <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-2xl md:text-3xl font-bold text-brik-purple">B</span>
+                    <span className="text-2xl md:text-3xl font-display font-bold text-brik-purple">B</span>
                   </div>
                 </div>
                 <h2 className="heading-md mt-6 text-brik-purple">thebrik.ai</h2>
