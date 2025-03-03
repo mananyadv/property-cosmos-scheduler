@@ -1,6 +1,4 @@
-
 import { Button } from "@/components/ui/button";
-import ParticleNebula from "@/components/ParticleNebula";
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import Brands from "@/components/Brands";
@@ -80,71 +78,66 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-brik-cream-light overflow-hidden font-sans">
+    <div className="min-h-screen bg-brik-black-dark overflow-hidden font-sans">
       {/* Navigation */}
       <NavBar />
 
-      {/* Hero Section with Particle Nebula */}
+      {/* Hero Section with Spline 3D */}
       <section id="home" className="relative min-h-screen flex items-center">
-        <div className="absolute inset-0 z-0">
-          <ParticleNebula />
-        </div>
-        <div className="container mx-auto z-10 relative">
-          <Hero />
-        </div>
+        <Hero />
       </section>
 
       {/* Brands Section */}
-      <section id="brands" className="py-20 bg-white">
+      <section id="brands" className="py-20 bg-brik-black-light">
         <div className="container mx-auto">
           <Brands />
         </div>
       </section>
 
       {/* Impact Section */}
-      <section id="impact" className="py-20 bg-gradient-cream">
+      <section id="impact" className="py-20 bg-gradient-dark">
         <div className="container mx-auto">
           <Impact />
         </div>
       </section>
 
       {/* Principles Section */}
-      <section id="principles" className="py-20 bg-white">
+      <section id="principles" className="py-20 bg-brik-black-light">
         <div className="container mx-auto">
           <Principles />
         </div>
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 bg-gradient-cream">
+      <section id="services" className="py-20 bg-gradient-dark">
         <div className="container mx-auto">
           <Services />
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 bg-white">
+      <section id="testimonials" className="py-20 bg-brik-black-light">
         <div className="container mx-auto">
           <Testimonials />
         </div>
       </section>
 
       {/* Team Section */}
-      <section id="team" className="py-20 bg-gradient-cream">
+      <section id="team" className="py-20 bg-gradient-dark">
         <div className="container mx-auto">
           <Team />
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 bg-white">
+      <section id="faq" className="py-20 bg-brik-black-light">
         <div className="container mx-auto">
           <FAQ />
         </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gradient-cream">
+      <section id="contact" className="py-20 bg-gradient-dark">
         <div className="container mx-auto">
           <Contact />
         </div>
@@ -156,8 +149,8 @@ const Index = () => {
       {/* Back to top button */}
       <div className="fixed bottom-8 right-8 z-50">
         <Button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="rounded-full w-12 h-12 bg-brik-purple hover:bg-brik-purple-dark"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="rounded-full w-12 h-12 bg-brik-cream text-brik-purple-dark hover:bg-white"
           aria-label="Back to top"
         >
           <svg
